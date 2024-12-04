@@ -1,0 +1,45 @@
+# Build directories
+build/
+out/
+
+# vcpkg directory
+vcpkg/
+
+# IDE specific
+.vscode/
+.idea/
+*.user
+*.suo
+*.xcworkspace
+*.xcodeproj
+
+# Dependencies
+vcpkg_installed/
+
+# Compiled files
+*.exe
+*.dll
+*.dylib
+*.so
+
+# CMake
+CMakeCache.txt
+CMakeFiles/
+CMakeScripts/
+Testing/
+Makefile
+cmake_install.cmake
+install_manifest.txt
+compile_commands.json
+CTestTestfile.cmake
+
+# macOS specific
+.DS_Store
+Thumbs.db
+.AppleDouble
+.LSOverride
+
+# JUCE specific
+**/Builds/
+**/JuceLibraryCode/
+**/.vs/
