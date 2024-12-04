@@ -17,8 +17,8 @@ How I set up my VSCode development environment for JUCE audio plugins using CMak
 ## Getting Started
 1. Clone it:
 ```bash
-git clone https://github.com/yourusername/juce-vscode-setup
-cd juce-vscode-setup
+git clone github.com:JamesN-dev/juce-vcpkg-cmake-vscode-example.git
+cd cpp_test
 ```
 
 2. Set up vcpkg:
@@ -45,7 +45,7 @@ See SETUP.md for the detailed guide on getting VSCode configured from scratch.
 
 ## Project Structure
 ```
-juce-vscode-setup/
+cpp_test/
 ├── .vscode/            # VSCode config
 ├── CMakeLists.txt     # Build setup
 ├── CMakePresets.json  # Build presets
