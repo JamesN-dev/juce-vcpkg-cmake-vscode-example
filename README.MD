@@ -46,7 +46,6 @@ See SETUP.md for the detailed guide on getting VSCode configured from scratch.
 ## Project Structure
 ```
 cpp_test/
-├── .vscode/            # VSCode config
 ├── CMakeLists.txt     # Build setup
 ├── CMakePresets.json  # Build presets
 ├── AudioPlugin/       # Plugin code (Hello World example)

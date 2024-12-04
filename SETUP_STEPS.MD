@@ -9,29 +9,29 @@ This guide walks through setting up a JUCE project using vcpkg as the package ma
 
 ## Initial Setup
 1. Create and initialize your project:
-```bash
+```zsh
 mkdir my-audio-plugin
 cd my-audio-plugin
 git init
 ```
 
 2. Add vcpkg as a git submodule:
-```bash
+```zsh
 git submodule add https://github.com/microsoft/vcpkg
 ```
 
 3. Bootstrap vcpkg (with metrics disabled):
-```bash
+```zsh
 ./vcpkg/bootstrap-vcpkg.sh -disableMetrics
 ```
 
 4. Create a new application manifest:
-```bash
+```zsh
 ./vcpkg/vcpkg new --application
 ```
 
 5. Add JUCE as a dependency:
-```bash
+```zsh
 ./vcpkg/vcpkg add port juce
 ```
 
@@ -47,7 +47,7 @@ find_package(juce CONFIG REQUIRED)
 See CMakePresets.json in this repo for the content - it sets up the build configuration for Xcode.
 
 3. Configure and build using the preset:
-```bash
+```zsh
 cmake --preset buildx2
 cmake --build build
 ```
