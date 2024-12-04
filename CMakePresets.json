@@ -1,0 +1,13 @@
+{
+    "version": 2,
+    "configurePresets": [
+        {
+            "name": "buildx2",
+            "generator": "Xcode",
+            "binaryDir": "${sourceDir}/build",
+            "cacheVariables": {
+                "CMAKE_TOOLCHAIN_FILE": "vcpkg/scripts/buildsystems/vcpkg.cmake"
+            }
+        }
+    ]
+}
